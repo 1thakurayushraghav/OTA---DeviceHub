@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.input{
+padding:10px;
+border:1px solid #ddd;
+border-radius:8px;
+outline:none;
+transition:0.2s;
+}
+
+.input:focus{
+border-color:#3b82f6;
+box-shadow:0 0 0 1px #3b82f6;
+}
+
+.param-name {
+  color: #000;
+  font-weight: 600;
+}
+
+.param-unit {
+  color: #444;
+}
